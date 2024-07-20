@@ -47,7 +47,7 @@ npm run start:dev
 \`\`\`
 
 ### Estructura del Proyecto del Back-end
-\`\`\`
+
 marvel-backend/
 │
 ├── src/
@@ -87,7 +87,7 @@ marvel-backend/
 ├── package.json
 ├── README.md
 ├── tsconfig.json
-\`\`\`
+
 
 ## Arquitectura del Back-end
 El back-end está desarrollado utilizando **Domain-Driven Design (DDD)** para asegurar una separación clara de las preocupaciones y una estructura escalable y mantenible. A continuación, se describen algunos de los principios y prácticas aplicadas:
