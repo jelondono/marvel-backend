@@ -20,38 +20,40 @@ Esta es una aplicación web que permite a los usuarios registrarse, iniciar sesi
 ## Instalación
 
 ### Clonar el Repositorio
-\`\`\`bash
+```bash
 git clone https://github.com/jelondono/marvel-backend.git
 cd marvel-backend
-\`\`\`
+```
 
 ### Configuración del Back-end (NestJS)
-\`\`\`bash
+```bash
 cd marvel-backend
 npm install
-\`\`\`
+```
 
 #### Configurar Variables de Entorno
 Crear un archivo `.env` en el directorio `marvel-backend` con el siguiente contenido:
-\`\`\`
+```
 PORT=3000
 MONGODB_URI=mongodb://localhost:27017/marvel-db
 JWT_SECRET=tu_secreto_jwt
 MARVEL_API_KEY=tu_marvel_api_key
 MARVEL_PRIVATE_KEY=tu_marvel_private_key
-\`\`\`
+```
 
 #### Ejecutar el Back-end
-\`\`\`bash
+```bash
 npm run start:dev
-\`\`\`
+```
 
 ### Estructura del Proyecto del Back-end
+
+```
 
 marvel-backend/
 │
 ├── src/
-│   ├── application/services
+│   ├── application/services/
 │   │   ├── auth.service.ts
 │   │   ├── comic.service.ts
 │   │   ├── user.service.ts
@@ -59,7 +61,7 @@ marvel-backend/
 │   │   ├── models/
 │   │   │   ├── user.model.ts
 │   ├── repositories/
-│   │   │   ├── user.repository.ts
+│   │   ├── user.repository.ts
 │   ├── infrastructure/
 │   │   ├── config/
 │   │   │   ├── configuration.ts
@@ -88,6 +90,7 @@ marvel-backend/
 ├── README.md
 ├── tsconfig.json
 
+```
 
 ## Arquitectura del Back-end
 El back-end está desarrollado utilizando **Domain-Driven Design (DDD)** para asegurar una separación clara de las preocupaciones y una estructura escalable y mantenible. A continuación, se describen algunos de los principios y prácticas aplicadas:
