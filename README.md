@@ -21,8 +21,8 @@ Esta es una aplicación web que permite a los usuarios registrarse, iniciar sesi
 
 ### Clonar el Repositorio
 \`\`\`bash
-git clone https://github.com/tu-usuario/marvel-comics-app.git
-cd marvel-comics-app
+git clone https://github.com/jelondono/marvel-backend.git
+cd marvel-backend
 \`\`\`
 
 ### Configuración del Back-end (NestJS)
